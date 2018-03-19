@@ -1,5 +1,3 @@
-# Created by newuser for 5.4.2
-
 #PROMPT=' %F{white}%n%f@%m%f %1~%f %F{yellow}%B$%b%f '
 PROMPT=' %F{white}% 旭%f@%m%f %1~%f %F{yellow}%B$%b%f '
 
