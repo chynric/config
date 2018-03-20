@@ -54,14 +54,6 @@ setopt hist_ignore_space
 setopt appendhistory
 setopt sharehistory
 setopt incappendhistory
-#powerline-daemon -q
-#. /usr/lib/python3.6/site-packages/powerline/bindings/zsh/powerline.zsh
-#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon custom_user  host  dir_writable dir )
-#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
-#POWERLEVEL9K_CUSTOM_USER="echo 旭"
-#POWERLEVEL9K_CUSTOM_USER_BACKGROUND="blue"
-#POWERLEVEL9K_CUSTOM_USER_FOREGROUND="orange"
-#source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 
 function zle-line-init zle-keymap-select {
     RPS1="${${KEYMAP/vicmd/ c }/(main|viins)/ i }"
@@ -90,3 +82,12 @@ alias vi="vim"
 export EDITOR="/usr/bin/vi"
 export TERMINAL="/usr/bin/sakura"
 export OOO_FORCE_DESKTOP=gnome
+
+#powerline-daemon -q
+#. /usr/lib/python3.6/site-packages/powerline/bindings/zsh/powerline.zsh
+#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon custom_user  host  dir_writable dir )
+#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
+#POWERLEVEL9K_CUSTOM_USER="echo 旭"
+#POWERLEVEL9K_CUSTOM_USER_BACKGROUND="blue"
+#POWERLEVEL9K_CUSTOM_USER_FOREGROUND="orange"
+#source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
