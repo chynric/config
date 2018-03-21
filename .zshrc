@@ -1,7 +1,6 @@
-#PROMPT=' %F{white}%n%f@%m%f %1~%f %F{yellow}%B$%b%f '
-PROMPT=' %F{white}% 旭%f@%m%f %1~%f %F{yellow}%B$%b%f '
+PROMPT=' %F{white}%n%f@%m%f %1~%f %F{yellow}%B$%b%f '
+#PROMPT=' %F{white}% 旭%f@%m%f %1~%f %F{yellow}%B$%b%f '
 
-#RPROMPT='[%F{yellow}%?%f]'
 #if [[ -z "$STY" ]]; then
 #   tmux attach
 #fi
@@ -25,6 +24,8 @@ setopt autocd
 setopt extendedglob
 setopt autopushd
 bindkey -v
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
 bindkey "^[[3~" delete-char
 bindkey "^[3;5~" delete-char
 bindkey	"\e[1~" beginning-of-line
