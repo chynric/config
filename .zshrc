@@ -44,6 +44,10 @@ bindkey '^K' kill-line
 bindkey \^U kill-whole-line
 bindkey -M vicmd \^U kill-whole-line
 bindkey -M vicmd "^V" edit-command-line
+bindkey -r '^T'
+bindkey -r '^O'
+bindkey -r '^B'
+bindkey -r '^N'
 export KEYTIMEOUT=1
 zle_highlight=(region:standout special:standout)
 zle_highlight=(isearch:fg=red)
