@@ -56,6 +56,11 @@ setopt appendhistory
 setopt sharehistory
 setopt incappendhistory
 
+insert-first-word () { zle insert-last-word -- -1 1 }
+zle -N insert-first-word
+bindkey '^[,' insert-first-word
+bindkey '\e.' insert-last-word
+
 foreground-vi() {
   fg %vi
 }
