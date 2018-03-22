@@ -25,8 +25,8 @@
 
 
 ## Tmux Autocompletion ##
-* CTRL + X               prefix complete previouse command output
-* CTRL + X CTRL + X      search and complete previouse command output
+* CTRL + X               prefix complete previouse command output strings
+* CTRL + X CTRL + X      search and complete strings of previouse command output
 
 
 ## Alias ##
