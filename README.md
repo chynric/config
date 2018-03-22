@@ -1,5 +1,5 @@
 # zsh custom functions
-
+Zsh is a powerful shell that operates as both an interactive shell and as a scripting language interpreter. Paul Falstad wrote the first version of Zsh in 1990 while a student at Princeton University. The name zsh derives from the name of Yale professor Zhong Shao (then an Assistant Professor at Princeton University) — Paul Falstad regarded Shao's login-id, "zsh", as a good name for a shell. [wikipedia]
 
 ## Shortcuts ##
 * ALT + .       insert last argument of previouse command
