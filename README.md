@@ -54,5 +54,3 @@ Zsh is a powerful shell that operates as both an interactive shell and as a scri
 
 ## Globbing ##
 
-
-## Vi Mode ##
