@@ -29,8 +29,8 @@ Zsh is a powerful shell that operates as both an interactive shell and as a scri
 * CTRL + X CTRL + X      search and complete strings of previouse command output
 
 ## Vi mode ##
-ESC         change to command mode
-i           change from command mode to insert mode
+* ESC         change to command mode
+* i           change from command mode to insert mode
 
 ## Alias ##
 * alias zmv='noglob zmv'
